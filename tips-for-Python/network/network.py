@@ -58,4 +58,4 @@ for com in set (partition.values()) :
 
 nx.draw_networkx_edges (Gund, pos, alpha = .5)
 
-plt.show ()  ## named network-in-python.pdf graph
+plt.show ()  ## named network-in-python.png graph
