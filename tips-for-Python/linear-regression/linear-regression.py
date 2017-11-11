@@ -3,7 +3,7 @@
 ##  ---                     linear regression in python                       ---  ##
 ##  ---                         by Alexandre Loures                           ---  ##
 ##  ---               Vicosa, Minas Gerais, Brazil 2017/11/10                 ---  ##
-##  ---                          update 2017/11/10                            ---  ##
+##  ---                          update 2017/11/11                            ---  ##
 ##  -----------------------------------------------------------------------------  ##
 ##  -----------------------------------------------------------------------------  ##
 
@@ -85,3 +85,21 @@ attributes = ['lastsoldprice', 'finishedsqft', 'bathrooms', 'zindexvalue']
 scatter_matrix (sf [attributes], figsize = (12, 8))
 
 plt.savefig ('matrix.png')
+
+## from the previous visual analysis it is noted that finishedsqft is the best predictor for the last sold price, then
+
+sf.plot (kind = 'scatter', x = 'finishedsqft', y = 'lastsoldprice', alpha = .5)
+
+ plt.savefig ('scatter.png')
+
+## adding a new variable 'price_per_sqft'
+
+sf ['price_per_sqft'] = sf ['lastsoldprice'] / sf ['finishedsqft']
+
+corr_matrix = sf.corr ()
+
+corr_matrix ['lastsoldprice'].sort_values (ascending = False)
+
+## how many neighborhoods are there?
+
+len (sf ['neighborhoods'].value_counts ())
