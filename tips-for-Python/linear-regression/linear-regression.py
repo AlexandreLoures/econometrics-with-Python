@@ -8,6 +8,7 @@
 ##  -----------------------------------------------------------------------------  ##
 
 ## database available in: https://raw.githubusercontent.com/RuiChang123/Regression_for_house_price_estimation/master/final_data.csv
+## the version of python used was python 3.6.3
 
 ## changing directory in python
 

@@ -8,6 +8,8 @@
 ##  -----------------------------------------------------------------------------  ##
 
 
+## the version of python used was python 3.6.3
+
 ## changing directory
 
 import os

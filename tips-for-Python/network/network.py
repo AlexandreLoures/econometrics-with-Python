@@ -7,6 +7,7 @@
 ##  -----------------------------------------------------------------------------  ##
 
 ## testing the computational routine of Professor Daniel
+## the version of python used was python 3.6.3
 
 
 import community
