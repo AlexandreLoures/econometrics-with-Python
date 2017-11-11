@@ -3,6 +3,7 @@
 ##  ---        changing the directory and manipulating bases in python        ---  ##
 ##  ---                         by Alexandre Loures                           ---  ##
 ##  ---               Vicosa, Minas Gerais, Brazil 2017/11/05                 ---  ##
+##  ---                          update 2017/11/10                            ---  ##
 ##  -----------------------------------------------------------------------------  ##
 ##  -----------------------------------------------------------------------------  ##
 
@@ -12,6 +13,11 @@
 import os
 
 os.chdir ("C:\\Users\\Inspiron\\OneDrive\\python\\base")
+
+
+## to get the current working directory use
+
+os.getcwd ()
 
 
 ## reading csv extension file in python
