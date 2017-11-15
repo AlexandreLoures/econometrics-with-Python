@@ -16,6 +16,10 @@ import os
 
 os.chdir ('C:\\Users\\Inspiron\\Desktop')
 
+## checking the working directory
+
+os.getcwd ()
+
 ## loading data to python
 
 import pandas as pd
