@@ -49,7 +49,7 @@ pd.options.dsiplay.max_columns = 10
 
 ##  reading stata extension file in Python
 
-df = pd.read_stata ('https://github.com/QuantEcon/QuantEcon.lectures.code/raw/master/mle/fp.dta')
+df = pd.read_stata ('C:\\Users\\Inspiron\\Desktop\\fp.dta')
 
 ##  examining the size of the database
 
